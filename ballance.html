@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Балланс</title>  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/classes/message.js" type="text/javascript"></script>
+	<script src="js/classes/transport.js" type="text/javascript"></script>
+	<script src="js/classes/react-dom.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<h3 class="header">
+			<span class="reactive" aria-hidden="true" data-source="ballance" data-content="">балланс: </span>
+		</h3> 
+		<nav></nav>
+	</header>
+	
+	<div id="content">
+
+		<div class="content">
+			<h3 class="reactive" data-source="name" data-content="">Добро пожаловать </h3>
+			<h5 class="reactive" aria-hidden="true" data-source="ballance" data-content="">Ваш балланс: </h5>
+				
+		</div>
+
+		<div class="sidebar">
+			
+		</div>
+		
+	</div>
+
+	<footer></footer>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function(){
+
+		checkBallance();
+
+	});
+	</script>
+</body>
+</html>
